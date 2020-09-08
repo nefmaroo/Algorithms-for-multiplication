@@ -19,20 +19,20 @@ This repository contains the implementation of 3 different multiplication algori
 ## Grade School Multiplication Algorithm
 
 The basic idea of this algorithm is to multiply the multiplicand by each digit of the multiplier and then add up all the properly shifted results. It's complexity is O(n^2), where n is the maximum number of digits among two numbers.
-![Alt-текст](Grade_School_Multiplication.png)
+![Alt-текст](images/Grade_School_Multiplication.png)
 
 ## Divide-and-Conquer Multiplication
 
 This approach leads to better complexity due to decomposition of large numbers multiplication problem into subproblems of two-digit multiplications. 
 
-![Alt-текст](Divide_and_conquer.png)
+![Alt-текст](images/Divide_and_conquer.png)
 
 
 ## Karatsuba Multiplication
 
 The key feature of Karatsuba's method lies in the observation that two-digit multiplication can be done with only three rather than the four multiplications classically required. Here, the running time reduces to O(n^1.59), what gives a huge difference for big values of n.
 
-![Alt-текст](Karatsuba.png)
+![Alt-текст](images/Karatsuba.png)
 
 ## Data type
 
@@ -101,5 +101,5 @@ Testing is performed by several calls of the ```createNumber()``` function for a
 ## Results 
 
 The graph plotted in Matplotlib shows the running time difference. 
-![Alt-текст](Speed_of_multiplication.jpg)
+![Alt-текст](images/Speed_of_multiplication.jpg)
 
